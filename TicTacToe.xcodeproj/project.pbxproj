@@ -14,6 +14,9 @@
 		3A5D5C4C23F52B1D00412B59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5D5C4A23F52B1D00412B59 /* LaunchScreen.storyboard */; };
 		3A5D5C5723F52B1D00412B59 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D5C5623F52B1D00412B59 /* TicTacToeTests.swift */; };
 		3A5D5C6223F52B1D00412B59 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D5C6123F52B1D00412B59 /* TicTacToeUITests.swift */; };
+		FC39D8EF23FD9A3A00423A56 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC39D8EE23FD9A3A00423A56 /* Board.swift */; };
+		FC4C2CF92403C56900A71A5A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4C2CF82403C56900A71A5A /* Player.swift */; };
+		FC5EF6B623FE8B020006546E /* Winner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EF6B523FE8B020006546E /* Winner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3A5D5C5D23F52B1D00412B59 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5D5C6123F52B1D00412B59 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		3A5D5C6323F52B1D00412B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC39D8EE23FD9A3A00423A56 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		FC4C2CF82403C56900A71A5A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FC5EF6B523FE8B020006546E /* Winner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,9 @@
 		3A5D5C7123F52B8900412B59 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FC39D8EE23FD9A3A00423A56 /* Board.swift */,
+				FC5EF6B523FE8B020006546E /* Winner.swift */,
+				FC4C2CF82403C56900A71A5A /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -282,6 +291,9 @@
 			files = (
 				3A5D5C4423F52B1B00412B59 /* ViewController.swift in Sources */,
 				3A5D5C4223F52B1B00412B59 /* AppDelegate.swift in Sources */,
+				FC5EF6B623FE8B020006546E /* Winner.swift in Sources */,
+				FC4C2CF92403C56900A71A5A /* Player.swift in Sources */,
+				FC39D8EF23FD9A3A00423A56 /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
